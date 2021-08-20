@@ -6,6 +6,7 @@ import {
   PhoneIcon,
   UsersIcon,
   ShoppingCartIcon,
+  MenuIcon,
 } from "@heroicons/react/outline";
 
 function Header(props) {
@@ -13,21 +14,28 @@ function Header(props) {
     <div className="flex flex-row justify-between bg-white shadow-md h-14 w-full">
       {/* {Left Header Part START} */}
       <div className="flex flex-row">
+        {/*FB button*/}
         <img
           className="mt-1 mb-1"
           src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png"
           alt="Facebook icon"
         />
-        {/*Menu button*/}
-        <div className="lg:hidden">
+        {/*Search button*/}
+        <div className="lg:hidden -ml-2">
           <div className="w-11 h-11 mt-1.5 rounded-full bg-gray-200">
             <SearchIcon className="w-7 h-7 relative top-2 left-2 text-gray-500" />
+          </div>
+        </div>
+        {/*Menu button*/}
+        <div className="lg:hidden pl-3 ">
+          <div className="w-11 h-11 mt-1.5 rounded-full bg-gray-200">
+            <MenuIcon className="w-7 h-7 relative top-2 left-2 text-gray-500" />
           </div>
         </div>
         <div className="hidden lg:flex lg:flex-row">
           <SearchIcon className="w-5 h-5 relative top-1/3 left-2 text-gray-500" />
           <input
-            className="border-2 rounded-full h-11 w-60 mt-2 -ml-6 pl-9 pb-1 bg-gray-100 focus:outline-none"
+            className="border-2 rounded-full h-11 w-60 mt-2 -ml-6 pl-10 pb-1 bg-gray-100 focus:outline-none"
             placeholder="Search on Facebook"
           />
         </div>
@@ -50,13 +58,12 @@ function Header(props) {
           <ShoppingCartIcon className="h-8 text-gray-500" />
         </div>
       </div>
-      {/*Header Right*/}
-      <div className="flex space-x-5">
-        <div className="w-11 h-11 rounded-full bg-red-200" />
-        <div className="w-11 h-11 rounded-full bg-red-200" />
-        <div className="w-11 h-11 rounded-full bg-red-200" />
-        <div className="w-11 h-11 rounded-full bg-red-200" />
-        <div className="w-11 h-11 rounded-full bg-red-200" />
+      {/*Header Right | Need More Customization. Just a placeholder*/}
+      <div className="flex space-x-5 mr-4">
+        <div className="w-10 h-10 mt-1.5 rounded-full bg-gray-200" />
+        <div className="w-10 h-10 mt-1.5 rounded-full bg-gray-200" />
+        <div className="w-10 h-10 mt-1.5 rounded-full bg-gray-200" />
+        <div className="w-10 h-10 mt-1.5 rounded-full bg-gray-200" />
       </div>
     </div>
   );
