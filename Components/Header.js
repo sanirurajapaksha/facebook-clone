@@ -9,7 +9,7 @@ import {
   MenuIcon,
 } from "@heroicons/react/outline";
 
-function Header(props) {
+function Header() {
   return (
     <div className="flex flex-row justify-between bg-white shadow-md h-14 w-full">
       {/* {Left Header Part START} */}
