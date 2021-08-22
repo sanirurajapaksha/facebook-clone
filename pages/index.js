@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/profile_pic.jpg" />
       </Head>
       <Header />
-      <Stories />
+      <div className=""></div>
     </div>
   );
 }
