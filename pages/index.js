@@ -1,6 +1,7 @@
+import React from "react";
 import Head from "next/head";
 import Header from "../Components/Header";
-import Stories from "../Components/Stories";
+import Feed from "./Feed";
 
 export default function Home() {
   return (
@@ -11,7 +12,9 @@ export default function Home() {
         <link rel="icon" href="/profile_pic.jpg" />
       </Head>
       <Header />
-      <div className=""></div>
+      <body>
+        <Feed />
+      </body>
     </div>
   );
 }
