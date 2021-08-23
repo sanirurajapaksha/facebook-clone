@@ -1,11 +1,18 @@
 import React from "react";
+import Stories from "../Components/Feed Components/Middle Side/Stories";
 
 function Feed(props) {
   return (
     <div className="flex flex-row h-screen">
-      <div className="w-1/4 bg-green-300">primary</div>
-      <div className="w-1/2 bg-blue-300">secondary</div>
-      <div className="w-1/4 bg-red-300">last</div>
+      <div className="w-0 md:w-1/4">
+        <div></div>
+      </div>
+      <div className="w-full md:w-1/2">
+        <Stories />
+      </div>
+      <div className="w-0 md:w-1/4">
+        <div></div>
+      </div>
     </div>
   );
 }
