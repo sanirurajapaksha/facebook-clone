@@ -13,9 +13,7 @@ export default function Home() {
       </Head>
       {/* Display hereafter */}
       <Header />
-      <body>
-        <Feed />
-      </body>
+      <Feed />
     </div>
   );
 }
