@@ -10,5 +10,5 @@ module.exports = {
       div: ["focus"],
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
