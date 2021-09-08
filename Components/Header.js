@@ -11,7 +11,7 @@ import {
 
 function Header() {
   return (
-    <div className="flex flex-row justify-between bg-white shadow-md h-14 w-full">
+    <div className="fixed flex flex-row justify-between bg-white shadow-md h-14 w-full">
       {/* {Left Header Part START} */}
       <div className="flex flex-row">
         {/*FB button*/}

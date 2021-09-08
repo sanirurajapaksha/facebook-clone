@@ -7,10 +7,10 @@ import Upload from "../Components/Feed Components/Middle Side/Upload";
 function Feed() {
   return (
     <div className="flex flex-row h-screen">
-      <div className="w-1/2">
+      <div className="mt-14 w-1/2">
         <div></div>
       </div>
-      <div className="w-full">
+      <div className="mt-14 w-full">
         <div>
           <Stories />
           <Upload />
@@ -18,7 +18,7 @@ function Feed() {
           <Posts />
         </div>
       </div>
-      <div className="w-1/2">
+      <div className="mt-14 w-1/2">
         <div></div>
       </div>
     </div>
