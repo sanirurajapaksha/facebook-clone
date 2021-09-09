@@ -27,8 +27,8 @@ function Posts(props) {
         </div>
         <div className="flex divide-y-2 flex-col w-full h-20 justify-center">
           <div className="flex flex-row w-full h-10 justify-between items-center">
-            <div className="w-52 h-8 ml-4 bg-gray-400 rounded-full"></div>
-            <div className="flex h-8 mr-4 bg-gray-400 rounded-full">Sample</div>
+            <div className="flex h-8 ml-4 bg-gray-400 rounded-full"></div>
+            <div className="flex h-8 mr-4 bg-gray-400 rounded-full"></div>
           </div>
           <div className="flex flex-row w-full h-10 items-center justify-between">
             <div className="ml-4 space-x-2 flex flex-row items-center">
