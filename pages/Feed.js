@@ -3,6 +3,11 @@ import Posts from "../Components/Feed Components/Middle Side/Posts";
 import Rooms from "../Components/Feed Components/Middle Side/Rooms";
 import Stories from "../Components/Feed Components/Middle Side/Stories";
 import Upload from "../Components/Feed Components/Middle Side/Upload";
+import getPosts from "../api/request";
+
+getPosts().then((data) => {
+  apiData = data;
+});
 
 function Feed() {
   return (
